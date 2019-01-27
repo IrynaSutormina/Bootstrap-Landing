@@ -1,0 +1,211 @@
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('../fonts/roboto-black/3953-webfont.eot');
+    src: url('../fonts/roboto-black/3953-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-black/3953-webfont.woff') format('woff'),
+         url('../fonts/roboto-black/3953-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-black/3953-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hammersmith_oneregular';
+    src: url('../fonts/hummer/hammersmithone-webfont.eot');
+    src: url('../fonts/hummer/hammersmithone-webfont.woff2') format('woff2'),
+         url('../fonts/hummer/hammersmithone-webfont.woff') format('woff'),
+         url('../fonts/hummer/hammersmithone-webfont.ttf') format('truetype'),
+         url('../fonts/hummer/hammersmithone-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displayblack';
+    src: url('../fonts/playfair-black/playfairdisplay-black-webfont.eot');
+    src: url('../fonts/playfair-black/playfairdisplay-black-webfont.woff2') format('woff2'),
+         url('../fonts/playfair-black/playfairdisplay-black-webfont.woff') format('woff'),
+         url('../fonts/playfair-black/playfairdisplay-black-webfont.ttf') format('truetype'),
+         url('../fonts/playfair-black/playfairdisplay-black-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('../fonts/playfair-bold/playfairdisplay-bold-webfont.eot');
+    src: url('../fonts/playfair-bold/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('../fonts/playfair-bold/playfairdisplay-bold-webfont.woff') format('woff'),
+         url('../fonts/playfair-bold/playfairdisplay-bold-webfont.ttf') format('truetype'),
+         url('../fonts/playfair-bold/playfairdisplay-bold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('../fonts/playfair-regular/playfairdisplay-regular-webfont.eot');
+    src: url('../fonts/playfair-regular/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('../fonts/playfair-regular/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('../fonts/playfair-regular/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('../fonts/playfair-regular/playfairdisplay-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto-light/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-light/roboto-light-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.margin-0 {
+    margin: 0 auto;
+}
+.height-vh {
+    height: 100vh;
+}
+.bg {
+    background-color: transparent;
+    background-image: url(../images/bg2.png);
+    padding: 200px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.round li {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;  
+    background: inherit;
+    border: 1px solid #00e0d0;
+}
+ .carousel .round .active {
+    background-color: #00e0d0;
+}
+
+.car-top {
+    top: 27%;
+}
+.p-style {
+    font-size: 14px;
+    font-family: "robotolight";
+    padding: 15px;
+}
+.h-style {
+    font-family: 'playfair_displayblack';
+    font-size: 32px;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.navbar-light .navbar-nav .menu-style {
+    font-family: 'robotoblack';
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+}
+.navbar-light .navbar-nav .active .menu-style {
+    font-family: 'robotoblack';
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+}
+.navbar-light .navbar-nav .menu-style:hover {
+    color: #00e0d0;
+}
+
+.color-tog {
+    color: white;
+}
+.btn-style {
+    border: 1px solid #00e0d0;
+    width: 125px;
+    height: 50px;
+    text-transform: uppercase;
+    font-family: 'hammersmith_oneregular';
+    font-size: 16px;
+    color: #00e0d0;
+    padding: 14px 5px;
+    margin-bottom: 10px;    
+}
+.btn-style:hover {
+    background-color: #00e0d0;
+}
+.padding-p {
+    padding: 20px 0;
+}
+
+.item-style {
+    padding: 50px 0;
+    align-items: baseline;
+    display: flex;  
+    justify-content: space-around;
+}
+.z-index-header {
+    z-index: 10;
+    width: 100%;
+}
+
+.our-story-style {
+    text-transform: uppercase;
+    font-family:'playfair_displaybold' ;
+    font-size: 22px;
+}
+.p-styles {
+    font-family: 'robotolight';
+    font-size: 14px;
+}
+.h4-styles {
+    font-family: 'robotoblack';
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+.h2-style {
+    font-family: 'playfair_displaybold';
+    font-size: 22px;
+    
+}
+.h3-style {
+    font-family: 'playfair_displayregular';
+    font-size: 14px;
+}
+.p-watch {
+    color: white;
+    font-family: 'robotoblack';
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+
+
+
+
